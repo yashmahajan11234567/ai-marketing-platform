@@ -1,7 +1,5 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  reactMode: "flight",
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

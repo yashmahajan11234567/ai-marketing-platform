@@ -1,13 +1,7 @@
-(node) => {
-  if (typeof window !== 'undefined') return;
-  require('dotenv').config();
-};
-
-module.exports = {
-  vercel: {
-    url: 'https://vercel.com',
-  },
-};
-
-// Vercel deployment configuration
-// Connect this repo at https://vercel.com/new?import=https://github.com/yashmahajan11234567/ai-marketing-platform
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs"
+}
